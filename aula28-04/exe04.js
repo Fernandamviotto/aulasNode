@@ -1,11 +1,3 @@
-/*
-Desenvolva um endpoint que receba uma frase (string) como entrada e retorne a quantidade de palavras contidas na frase.
-Ex:
-- Valor informado: Socorram-me! Subi no ônibus em Marrocos!
-- Resultado esperado: 6
-
-*/
-
 const express = require('express');
 const app = express();
 const port = 3000;

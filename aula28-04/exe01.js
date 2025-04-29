@@ -1,16 +1,3 @@
-/*
-Crie um endpoint que receba uma quantidade ilimitada de valores inteiros e calcule a soma destes valores, independente da quantidade de números informados 
-Ex:
-- Valores informados: 1,4,5
-- Resultado esperado: 10
-Sugestão de retornos possíveis e validações:
-● Sucesso:
-    ○ Retorna os valores somados
-● Erros
-    ○ Algum dos valores informados está incorreto (letras, caracteresespeciais, nulos, entre outros)
-    ○ O usuário não enviou valores - deve validar se tem pelo menos 1 item na lista
-*/
-
 const express = require('express');
 const app = express();
 const port = 3000;

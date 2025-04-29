@@ -1,16 +1,3 @@
-/*
-Crie um endpoint que receba uma quantidade ilimitada de valores inteiros e retorne ao usuário de maneira ordenada.
-Ex:
-- Valores informados: 1,6,4,7,10,3
-- Resultado esperado: 1,3,4,6,7,10
-Sugestão de retornos possíveis e validações
-● Sucesso:
-    ○ Retorna os valores ordenados
-● Erros
-    ○ Algum dos valores informados está incorreto (letras, caracteres especiais, nulos, entre outros)
-    ○ O usuário não enviou valores - deve validar se tem pelo menos 1 item na lista
-*/
-
 const express = require('express');
 const app = express();
 const port = 3000;

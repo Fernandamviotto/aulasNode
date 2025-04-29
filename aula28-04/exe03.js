@@ -1,17 +1,3 @@
-/*
-Crie um endpoint para receber um valor inteiro e definir se o mesmo é par ou ímpar:
-Ex:
-- Valor informado: 3
-- Resultado esperado: ‘ímpar’
-Sugestão de retornos possíveis e validações
-● Sucesso:
-    ○ Retorna a mensagem indicando se o número é par ou ímpar
-● Erros
-    ○ O valor informado está incorreto (letras, caracteres especiais, nulos, entre outros)
-    ○ O usuário não enviou valor
-    ○ O número não atende a regra de par ou ímpar
-*/
-
 const express = require('express');
 const app = express();
 const port = 3000;
